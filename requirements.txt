@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+livekit
+livekit-api
+numpy
+soundfile
+python-dotenv

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Meeting Assistant</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1> Real-Time AI Meeting Assistant</h1>
+
+  <section>
+    <h2>Live Transcript</h2>
+    <div id="transcript"></div>
+  </section>
+
+  <section>
+    <h2>Live Summary</h2>
+    <div id="summary"></div>
+  </section>
+
+  <section>
+    <h2>Ask a Question</h2>
+    <input type="text" id="questionInput" placeholder="What has been decided so far?" />
+    <button onclick="askQuestion()">Ask</button>
+    <div id="answer"></div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
