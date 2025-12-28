@@ -1,4 +1,4 @@
-#  Real-Time AI Meeting Assistant
+#  A1.3 Real-Time AI Meeting Assistant
 
 A Real-Time AI Meeting Assistant that captures meeting conversations, displays a live transcript, maintains a continuously updated summary, and allows users to ask questions based on the meeting context.
 
