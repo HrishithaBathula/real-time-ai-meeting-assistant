@@ -5,3 +5,6 @@ livekit-api
 numpy
 soundfile
 python-dotenv
+scikit-learn
+sentence-transformers
+torch

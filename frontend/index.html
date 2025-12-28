@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -24,6 +24,48 @@
     <button onclick="askQuestion()">Ask</button>
     <div id="answer"></div>
   </section>
+
+  <script src="app.js"></script>
+</body>
+</html> -->
+
+<!-- MOCK -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Real-Time AI Meeting Assistant</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Real-Time AI Meeting Assistant</h1>
+
+    <section class="card">
+      <h2>Live Transcript</h2>
+      <div id="transcript" class="box"></div>
+    </section>
+
+    <section class="card">
+      <h2>Live Summary</h2>
+      <div id="summary" class="box"></div>
+    </section>
+
+    <section class="card">
+      <h2>Ask a Question</h2>
+      <div class="ask-row">
+        <input
+          type="text"
+          id="questionInput"
+          placeholder="What has been decided so far?"
+        />
+        <button onclick="askQuestion()">Ask</button>
+      </div>
+      <div id="answer" class="box"></div>
+    </section>
+  </div>
 
   <script src="app.js"></script>
 </body>

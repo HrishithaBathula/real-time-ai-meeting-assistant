@@ -10,7 +10,7 @@ async def start_ai_assistant():
     @room.on("track_subscribed")
     def on_track(track, publication, participant):
         if track.kind == rtc.TrackKind.KIND_AUDIO:
-            print(f"🎧 Subscribed to audio from {participant.identity}")
+            print(f" Subscribed to audio from {participant.identity}")
 
             audio_stream = rtc.AudioStream(track)
 
